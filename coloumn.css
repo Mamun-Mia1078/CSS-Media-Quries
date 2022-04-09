@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.col{
+    float: left;
+    width: 25%;
+    padding: 10px;
+    background-color: blueviolet;
+    margin: 10px;
+    color: aliceblue;
+}
+.row{
+    display: flex;
+    flex-wrap: ;
+}
+.col{
+    flex: 1fr 1fr 1fr 1fr;
+}
+@media screen and (max-width:992px){
+
+    .col{
+        flex: 50%;
+    }
+}
